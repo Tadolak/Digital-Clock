@@ -1,0 +1,25 @@
+body{
+    background-image:url(pexels-felixmittermeier-1146134.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    
+}
+#clockConteinar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color:black;
+    
+    height: 100vh;
+    
+    font-weight: bold;
+
+
+}
+#clock{
+    color: white;
+    font-size: 5rem;
+    backdrop-filter: blur(5px);
+}
